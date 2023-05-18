@@ -37,6 +37,7 @@ let person = {
 person.talk()
 
 //paradoxo
-const paradoxo  = function () {
-    console.log(this)
+function myFunction() {
+    console.log(this)//nesse momento ele e o globo.
 }
+myFunction()

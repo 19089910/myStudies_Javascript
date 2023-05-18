@@ -6,8 +6,8 @@ let persons = {
     }
 };
 
-this.persons = persons;
+//this.persons = persons;
 
 
-//module.exports = {person}
+module.exports = {person}
 
